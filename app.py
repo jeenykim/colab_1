@@ -23,7 +23,7 @@ from keras.applications import ResNet50
 resnet50_pre =  tf.keras.applications.resnet.ResNet50(weights='imagenet' , input_shape=(224, 224, 3))
 # ResNet50 모델을 가져와 resnet50_pre 변수에 할당한다. weights='imagenet'는 사전 훈련된 ImageNet 가중치를 사용하도록 지정하고, input_shape=(224, 224, 3)는 입력 이미지의 크기 및 채널 수를 지정한다.
 
-st.title('이미지분류 인공지능입니다')
+st.title('이미지분류 인공지능입니다!!')
 # Streamlit 애플리케이션의 타이틀을 설정한다.
 
 file = st.file_uploader('이미지 올려주세요' , type=['jpg' , 'png'])
